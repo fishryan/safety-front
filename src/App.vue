@@ -1,9 +1,7 @@
 <script setup>
-  import Home from '@/components/Home.vue'
-  import '@/assets/css/reset.css'
+import "@/style/normalize.css";
 </script>
 
-
 <template>
-    <Home></Home>
+  <RouterView />
 </template>
